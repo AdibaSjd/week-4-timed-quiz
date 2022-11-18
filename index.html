@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coding Quiz challenge</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<header>
+  <div><a href="/score.html">high scores</a></div>
+  <div class="title">Coding quiz challenge</div>
+  <div id="timer"></div>
+</header>
+
+
+<body>
+  <main>
+    <section id="welcome" class="box">
+      <h1>Welcome to the code quiz</h1>
+      <button id="BeginQuiz" class="btn primary">Let start</button>
+    </section>
+
+    <section id="quiz" class="box">
+      <div id="question"></div>
+      <div id="options"></div>
+      <div id="message"></div>
+    </section>
+
+    <section id="result" class="box">
+      <h1>Game Over!</h1>
+      <div id="summary" class=""></div>
+      <button id="viewScores" class="btn secondary"><a href="/score.html">view all high scores</button></a>
+      <p><strong>initials:</strong> <input type="text" id="initials"></input></p>
+      <button id="saveScore" class="btn primary">Save Score</button>
+      <button id="playAgain" class="btn primary">Play Again</button>
+    </section>
+
+  </main>
+  <script src="assets/js/questions.js"></script>
+  <script src="assets/js/quiz.js"></script>
+
+</body>
+
+</html>
