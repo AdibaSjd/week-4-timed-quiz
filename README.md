@@ -37,7 +37,7 @@ My main issue was ensuring my score was kept and saved at the end of each round 
 ## General info
 This is a page developed through HTML and later styled through CSS. The main functionality of the page comes from Java Script which allows for the interactivity by the user into the page to go through the quiz and answer the questions. The user is given a list of questions to answer under a set time limit and at the end of each game they are given a score and this score can be saved into local storage along with their initials. However, there are set criteria that the user will have to meet to be able to countinue which is finishing the game in 75 seconds if this is not done the game will end and they will finish with a score of 0.
 ## Page link
-
+https://adibasjd.github.io/week-4-timed-quiz/
 
 
 
