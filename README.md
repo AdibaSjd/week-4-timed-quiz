@@ -1,4 +1,4 @@
-# week-3-TIMED-QUIZ
+# week-4-Timed-Quiz
 
 Customer asked for a page that allows me to test my coding knowledge and save a score with my initials.
 
